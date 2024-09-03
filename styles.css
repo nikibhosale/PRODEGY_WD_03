@@ -1,0 +1,143 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #8a2be2; 
+  font-family: sans-serif;
+  
+}
+label{
+   /* display: flex; */
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px; 
+  margin-top: 200px;
+  line-height: 60px;
+  border: 5px black;
+  font-size: 20px;
+
+}
+.modeSelection {
+  border: 2px solid #fff; /* Border for the choices form */
+  border-radius: 10px; 
+  padding: 20px; 
+  background-color: rgba(255, 255, 255, 0.1);
+  display: inline-block; 
+  margin-bottom: 20px; 
+}
+
+
+.modeSelection input[type="radio"] {
+  margin-right: 10px;
+  transform: scale(1.5); 
+  box-shadow: 0 2px 4px rgba(0, 0, 5, 0.1);
+  vertical-align: middle;
+ 
+}
+
+.modeSelection label {
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #fff; 
+  display: inline-block;
+  padding: 5px; 
+}
+
+.modeSelection label + label {
+  margin-left: 20px;
+  margin-top: 20px;
+  
+ }
+
+
+
+#modeSelection button{
+color: aqua;
+background-color: #04aa6d;
+border: none;
+color: white;
+padding: 10px 31px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-top: 30px;
+margin: 50px;
+
+}
+h1 {
+  color: #fff; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  margin-bottom: 20px;
+  margin-top: 0; 
+  position: absolute;
+  top: 70px; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container {
+  text-align: center;
+  border: 2px solid white;
+}
+
+h1 {
+  color: #fff; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  margin-bottom: 20px; 
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 2px;
+  margin-bottom: 10px;
+  background-color: blueviolet;
+}
+
+.cell {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255); /* Add a background color to ensure X and O are visible */
+}
+
+.status {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: purple;
+  color: #fff;
+  padding: 10px; 
+  border-radius: 5px;
+}
+
+.resetButton {
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #5d2c94; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
+
+.modeSelection label {
+  font-size: 24px; 
+  font-weight: bold;
+  color: #fff;
+}
+
+
